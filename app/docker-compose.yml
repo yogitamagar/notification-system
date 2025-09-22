@@ -1,0 +1,12 @@
+services:
+  event-notification-system:
+    build: .
+    container_name: event-notification-system
+    ports:
+      - "8080:8080"
+    networks:
+      - notification-net
+
+networks:
+  notification-net:
+    driver: bridge
