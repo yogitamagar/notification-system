@@ -1,2 +1,2 @@
 # notification-system
-sprih-event-notification-system
+event-notification-system
